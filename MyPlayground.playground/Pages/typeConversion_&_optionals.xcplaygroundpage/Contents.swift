@@ -7,7 +7,7 @@ let earthGravityConstant2 = integerPart + Int(decimalPart)
 
 
 let myNumber: Int? = 15
-print(myNumber)
+print(myNumber as Any)
 print(myNumber!)//this kind of unwrapping can be used only when u are sure that optional has some value when we access it else it crashes
 
 let university : String = "BU"
